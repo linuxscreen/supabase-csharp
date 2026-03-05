@@ -47,7 +47,8 @@
         <PackageReference Include="Supabase.Functions" Version="2.1.0" />
         <PackageReference Include="Supabase.Gotrue" Version="6.0.3" />
         <PackageReference Include="Supabase.Postgrest" Version="4.1.0" />
-        <PackageReference Include="Supabase.Realtime" Version="7.2.0" />
+<!--        <PackageReference Include="Supabase.Realtime" Version="7.2.0" />-->
+        <ProjectReference Include="../modules/realtime-csharp/Realtime/Realtime.csproj" />
         <PackageReference Include="Supabase.Storage" Version="2.0.2" />
         <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
     </ItemGroup>

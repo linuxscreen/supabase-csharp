@@ -6,7 +6,7 @@
 	url = https://github.com/supabase-community/postgrest-csharp
 [submodule "modules/realtime-csharp"]
 	path = modules/realtime-csharp
-	url = https://github.com/supabase-community/realtime-csharp
+	url = git@github.com:linuxscreen/realtime-csharp.git
 [submodule "modules/storage-csharp"]
 	path = modules/storage-csharp
 	url = https://github.com/supabase-community/storage-csharp

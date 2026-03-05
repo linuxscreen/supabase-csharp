@@ -9,6 +9,7 @@ using System.Net.WebSockets;
 using System.Text;
 using System.Threading.Tasks;
 using Supabase.Realtime.Exceptions;
+using Supabase.Realtime.Channel;
 
 namespace SupabaseTests.Stubs
 {
@@ -85,5 +86,15 @@ namespace SupabaseTests.Stubs
         public IRealtimeSocket Socket { get; }
         public ReadOnlyDictionary<string, RealtimeChannel> Subscriptions { get; }
         public Func<Dictionary<string, string>> GetHeaders { get; set; }
+
+        public RealtimeChannel Channel(string channelName, bool isPrivate = false)
+        {
+            throw new NotImplementedException();
+        }
+
+        public RealtimeChannel Channel(string channelName, ChannelOptions options)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
