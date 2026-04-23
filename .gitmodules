@@ -1,6 +1,6 @@
 [submodule "modules/gotrue-csharp"]
 	path = modules/gotrue-csharp
-	url = https://github.com/supabase-community/gotrue-csharp
+	url = git@github.com:linuxscreen/gotrue-csharp.git
 [submodule "modules/postgrest-csharp"]
 	path = modules/postgrest-csharp
 	url = https://github.com/supabase-community/postgrest-csharp
